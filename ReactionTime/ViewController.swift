@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     func updateCloud() {
         //Code here to write data to firebase
         let dataBase = Database.database().reference().child("results")
-        
+        print(Database.database().reference())
         
         
         
