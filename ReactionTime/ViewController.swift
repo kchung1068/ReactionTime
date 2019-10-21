@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CloudKit
+import Firebase
 
 class ViewController: UIViewController {
     
@@ -57,8 +57,14 @@ class ViewController: UIViewController {
     
     func updateCloud() {
         //Code here to write data to firebase
+        let dataBase = Database.database().reference().child("results")
+        
+        
+        
+        
+        
+    //}
     }
-    
     @IBAction func buttonWasClicked(_ sender: UIButton) {
         
         if tapCounter == 0 {
